@@ -26,7 +26,8 @@ public class Practica1 {
         
         //User variables
         String name = JOptionPane.showInputDialog("Digite su nombre: ");
-        float salary = Float.parseFloat(JOptionPane.showInputDialog("Digite su salario semanal: "));
+        float salary = Float.parseFloat(JOptionPane.showInputDialog
+        ("Digite su salario semanal: "));
         
         //Calculations
         float grosssalary = salary * 4;
@@ -34,8 +35,10 @@ public class Practica1 {
         float netsalary = grosssalary - deductions;
 
         //Show results
-        JOptionPane.showMessageDialog(null, "Nombre del trabajador: " + name + "\nSalario semanal: " + salary + 
-        "\nSalario mensual bruto: " + grosssalary + "\nDeducciones: " + deductions + "\nSalario mensual neto: " + netsalary);
+        JOptionPane.showMessageDialog(null, "Nombre del trabajador: "
+         + name + "\nSalario semanal: " + salary + 
+        "\nSalario mensual bruto: " + grosssalary + "\nDeducciones: "
+         + deductions + "\nSalario mensual neto: " + netsalary);
 
     }
     
